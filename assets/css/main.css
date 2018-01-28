@@ -3,6 +3,18 @@
 
 /* Reset */
 
+.ir-arriba {
+	display:inline-block;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#ffffff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
+
 .parallax {
 	 /* The image used */
 	 background-image: url("img_parallax.jpg");
