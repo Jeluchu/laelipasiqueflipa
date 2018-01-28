@@ -1,5 +1,15 @@
 (function($) {
 
+	$(window).ready(function(){
+	   $('h2').click(function(){
+	      if($(this).next().hasClass('desplegado')){
+	         $(this).next().removeClass('desplegado');
+	      }else{
+	         $(this).next().addClass('desplegado');
+	      }
+	   })
+	})
+
 	$(document).ready(function(){
 
 		$('.ir-arriba').click(function(){
