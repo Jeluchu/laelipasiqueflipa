@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Prologue by HTML5 UP</title>
+		<title>Comercio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -23,26 +23,13 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<span class="image avatar48"><img src="images/elipa.png" alt="" /></span>
 							<h1 id="title">COMERCIA-TE</h1>
 							<p>Fomento del comercio</p>
 						</div>
 
 					<!-- Nav -->
 						<nav id="nav">
-							<!--
-
-								Prologue's nav expects links in one of two formats:
-
-								1. Hash link (scrolls to a different section within the page)
-
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-								2. Standard link (sends the user to another page/site)
-
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
-							-->
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Introducción</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Comercios Activos</span></a></li>
@@ -52,17 +39,35 @@
 						</nav>
 
 				</div>
-
+				<br>
+				<script language="JavaScript">
+		    var totalTiempo=300; // 5 MINUTOS
+		    var url="../inicia.html"
+		    function updateReloj()
+		    {
+		        document.getElementById('CuentaAtras').innerHTML = " "+totalTiempo+" ";
+		        if(totalTiempo==0)
+		        {
+		            window.location=url;
+		        }else{
+		            totalTiempo-=1;
+		            setTimeout("updateReloj()",1000);
+		        }
+		    }
+		    window.onload=updateReloj;
+		    </script>
+				<center><h4>Tiempo restante</h4></center>
+				<center><h2 id='CuentaAtras'></h2></center>
 				<div class="bottom">
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="http://www.facebook.com/laelipasiqueflipa" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://twitter.com/La_Elipa" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.instagram.com/la_elipasiqueflipa/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://api.whatsapp.com/send?phone=34646835828" class="icon fa-whatsapp"><span class="label">Email</span></a></li>
 						</ul>
+
 
 				</div>
 
@@ -72,18 +77,17 @@
 			<div id="main">
 
 				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+					<section id="top" class="one dark cover" background-image="port.jpg">
+						<div class="container" >
 
-							<header>
-								<h2 class="alt">¡Bienvenido/a a <strong>Comercia-te</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
+							<header >
+								<h2 class="alt"><strong>¡Iniciado correctamente!</strong></h2>
+								<p>Te recordamos que la duración de la sesión es limitada, con una duración de <strong>5 minutos</strong><br>
+								Una vez pasado el tiempo podrás iniciar sesión de nuevo</p>
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+								<a href="https://api.whatsapp.com/send?phone=34646835828" class="button scrolly">Soporte técnico</a>
 							</footer>
 
 						</div>
@@ -94,59 +98,97 @@
 						<div class="container">
 
 							<header>
-								<h2>Portfolio</h2>
+								<h2>Comercios Activos</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+							<p>En esta parte, podréis ver que comercios están participando en nuetra campaña <strong>"Comercia-te"</strong>, además de salir el logotipo del comercio, si pincháis en el nombre del comercio, se os redigirá al teléfono por si deseáis llamar a ese comercio. En cambio, los comercios que no estén ese mes, o hayan dejado de participar, no aparecerán y se les dará de baja de la <strong>"zona privada"</strong>, dejando así de tener usuario propio.</p>
 
 							<div class="row">
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="../opticalledo.html" class="image fit"><img src="images/lledo.png" alt="" /></a>
 										<header>
-											<h3>Ipsum Feugiat</h3>
+											<a href="tel:914050240"> Óptica Lledó</a>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="../corner.html" class="image fit"><img src="images/corner.png" alt="" /></a>
 										<header>
-											<h3>Rhoncus Semper</h3>
+											<a href="tel:910014281"> The Language Corner</a>
 										</header>
 									</article>
 								</div>
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<a href="../reymont.html" class="image fit"><img src="images/reymont.jpg" alt="" /></a>
 										<header>
-											<h3>Magna Nullam</h3>
+											<a href="tel:914055802"> Clínica Reymont</a>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<a href="../isabel.html" class="image fit"><img src="images/isabel.png" alt="" /></a>
 										<header>
-											<h3>Natoque Vitae</h3>
+											<a href="tel:699037923"> Isabel Moreno</a>
 										</header>
 									</article>
 								</div>
 								<div class="4u$ 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<a href="../marti.html" class="image fit"><img src="images/marti.png" alt="" /></a>
 										<header>
-											<h3>Dolor Penatibus</h3>
+											<a href="tel:910210277"> Marti L'Art</a>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<a href="../pilares.html" class="image fit"><img src="images/pilares.png" alt="" /></a>
 										<header>
-											<h3>Orci Convallis</h3>
+											<a href="tel:673663655"> Las Pilares de la Estética</a>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="../luzimar.html" class="image fit"><img src="images/luzi.png" alt="" /></a>
+										<header>
+											<a href="tel:914050240"> Luzimar</a>
+										</header>
+									</article>
+									<article class="item">
+										<a href="../elipa.html" class="image fit"><img src="images/dispo.png" alt="" /></a>
+										<header>
+											<a href="https://api.whatsapp.com/send?phone=34646835828">¡Espacio Disponible!</a>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="../fisio.html" class="image fit"><img src="images/fisio.png" alt="" /></a>
+										<header>
+											<a href="tel:914078969"> FisioLife</a>
+										</header>
+									</article>
+									<article class="item">
+										<a href="../elipa.html" class="image fit"><img src="images/dispo.png" alt="" /></a>
+										<header>
+											<a href="https://api.whatsapp.com/send?phone=34646835828">¡Espacio Disponible!</a>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="../elipa.html" class="image fit"><img src="images/dispo.png" alt="" /></a>
+										<header>
+											<a href="https://api.whatsapp.com/send?phone=34646835828">¡Espacio Disponible!</a>
+										</header>
+									</article>
+									<article class="item">
+										<a href="../elipa.html" class="image fit"><img src="images/dispo.png" alt="" /></a>
+										<header>
+											<a href="https://api.whatsapp.com/send?phone=34646835828">¡Espacio Disponible!</a>
 										</header>
 									</article>
 								</div>
 							</div>
-
 						</div>
 					</section>
 
@@ -155,18 +197,10 @@
 						<div class="container">
 
 							<header>
-								<h2>About Me</h2>
+								<h2>Calendario</h2>
 							</header>
-
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
-
+							<iframe src="documents/febrero.pdf" style="width:800px; height:500px;"></iframe><br><br>
+							<p>Te aconsejamos que revises este apartado, ya que en él, podrás ver que día y en que red social serás publicado/a. Si en un casual no apareciese ese día tu publicación, te agradeceríamos que nos avisases con la mayor antelación posible para poder buscar otro día para publicarlo. Las publicaciones de publicidad normalmente <strong>en Facebook suelen ser a las 10:00.</strong></p>
 						</div>
 					</section>
 
@@ -175,27 +209,13 @@
 						<div class="container">
 
 							<header>
-								<h2>Contact</h2>
+								<h2>Comunicados</h2>
 							</header>
 
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
-							<form method="post" action="#">
-								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="12u$">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
-
+							<p>Siempre que haya un comunicado, aparecerán nuevos botones de descarga para que podáis leer los diversos archivos. Esperamos que estéis pendientes ya que es posible que haya cambios, y se comunique a través de esta plataforma. Además si queréis cambiar vuestra contraseña por otra en concreto, no dudéis en contactarnos (pero os pedimos que no contenga datos personales).</p>
+									<a href="#" class="button special disabled">¡Bienvenida!</a>
+							 		<a href="#" class="button special disabled">Nº Publicaciones</a>
+									<a href="#" class="button special disabled">Labores de Mantenimiento</a>
 						</div>
 					</section>
 
@@ -206,7 +226,7 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>LA ELIPA SI QUE FLIPA &copy; 2018</li><li>Diseñado por: <a href="http://github.com/jeluchu">Jéluchu</a></li>
 					</ul>
 
 			</div>
