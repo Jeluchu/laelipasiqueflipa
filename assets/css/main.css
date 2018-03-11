@@ -110,17 +110,6 @@
    transition: max-height 500ms ease-out;
 }
 
-.ir-arriba {
-	display:inline-block;
-	padding:20px;
-	background:#ffb200;
-	font-size:20px;
-	color:#000000;
-	cursor:pointer;
-	position: fixed;
-	bottom:20px;
-	right:20px;
-}
 
 .parallax {
 	 /* The image used */
