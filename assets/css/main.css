@@ -1,6 +1,19 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
+h2 span{
+    display: inline-block;
+    padding: .40em .4em;
+    line-height: 1em;
+}
+
+p span{
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding: .60em .2em;
+    line-height: 2.5em;
+}
+
 /* Spotlight (transitions) */
 
 	.spotlight.onload-content-fade-up .content {
@@ -4535,6 +4548,7 @@
 				}
 
 			}
+
 
 		.wrapper.style4 {
 			background-color: transparent;
