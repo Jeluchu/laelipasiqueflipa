@@ -2543,8 +2543,22 @@
 				padding: 0;
 			}
 
+		/* CAMBIAR EL COLOR DE BARRAS DE COMERCIO */
+
+				#header > nav ul li.academia {
+					border-top: solid 2px #5ca5cf;
+					display: block;
+					padding: 0;
+				}
+
+				#header > nav ul li.centros {
+					border-top: solid 2px #0492c8;
+					display: block;
+					padding: 0;
+				}
+
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb0;
+					border-top: solid 2px #08bd8b;
 					display: block;
 					padding: 0;
 				}
@@ -2563,7 +2577,7 @@
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #0a6689 !important;
 						}
 
 					#header > nav ul li:first-child {
