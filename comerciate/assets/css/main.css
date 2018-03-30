@@ -2557,11 +2557,43 @@
 					padding: 0;
 				}
 
+				#header > nav ul li.foto {
+					border-top: solid 2px #05976f;
+					display: block;
+					padding: 0;
+				}
+
+				#header > nav ul li.menaje {
+					border-top: solid 2px #c6c303;
+					display: block;
+					padding: 0;
+				}
+
+				#header > nav ul li.restauracion {
+					border-top: solid 2px #c58101;
+					display: block;
+					padding: 0;
+				}
+
 				#header > nav ul li {
 					border-top: solid 2px #08bd8b;
 					display: block;
 					padding: 0;
 				}
+
+				#header > nav ul li a.claros {
+					-moz-transition: none;
+					-webkit-transition: none;
+					-ms-transition: none;
+					transition: none;
+					border: 0;
+					color: #000000 !important;
+					font-weight: bold;
+					display: block;
+					padding: 0.85em 0;
+					text-decoration: none;
+				}
+
 
 					#header > nav ul li a {
 						-moz-transition: none;
