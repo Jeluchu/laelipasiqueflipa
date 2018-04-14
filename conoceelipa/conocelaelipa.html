@@ -9,6 +9,14 @@
 
   <link rel="icon" type="image/x-icon" href="../favicon.png">
 
+	<script>
+			 $(document).ready(function(){
+					 $('.myCarousel').carousel({
+							 interval: 5000
+					 });
+			 });
+	 </script>
+
 	<title>Conoce La Elipa</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -132,75 +140,38 @@
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			<div class="carousel slide" data-ride="carousel">
 
+				<!-- Indicators -->
+
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					</ol>
+
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
 					<div class="item active">
-						<div class="page-header header-filter" style="background-image: url('http://www.macarteycreacion.com/laelipasiqueflipa/images/inicio/princi.jpg');">
+						<div class="page-header header-filter" style="background-image: url('http://www.macarteycreacion.com/laelipasiqueflipa/conocelaelipa/anti.jpg');">
               <div class="container">
                 <div class="row">
                   <div class="col-md-6 text-left">
                     <h1 class="title">CONOCE LA ELIPA</h1>
-                    <h4>PRÓXIMAMENTE EN LA PÁGINA OFICIAL DE TU BARRIO</h4>
-                    <hr>
-                    <h3>SE REALIZARÁ UN PREVIO AVISO POR REDES SOCIALES</h3>
+                    <h4>El nuevo apartado de la web de tu barrio en la que podrás descubir las novedades,<br> ver los eventos más significativos del barrio, y también algunos puntos de interés<br> como asociaciones, colegios, parques, etc</h4>
                     <br />
                   </div>
                 </div>
               </div>
-
-<!--
-							<div class="container">
-								<div class="row">
-									<div class="col-md-6 text-left">
-										<h1 class="title">Material Kit PRO</h1>
-										<h4>Dolce & Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
-										<br />
-
-										<div class="buttons">
-											<a href="#pablo" class="btn btn-primary btn-lg">
-												Read More
-											</a>
-											<a href="#pablo" class="btn btn-just-icon btn-white btn-simple btn-lg">
-												<i class="fa fa-twitter"></i>
-											</a>
-											<a href="#pablo" class="btn btn-just-icon btn-white btn-simple btn-lg">
-												<i class="fa fa-facebook-square"></i>
-											</a>
-											<a href="#pablo" class="btn btn-just-icon btn-white btn-simple btn-lg">
-												<i class="fa fa-get-pocket"></i>
-											</a>
-										</div>
-
-									</div>
-								</div>
-							</div>
 				        </div>
-
 					</div>
+
 					<div class="item">
-						<div class="page-header header-filter" style="background-image: url('assets/img/dg2.jpg');">
+						<div class="page-header header-filter" style="background-image: url('http://www.macarteycreacion.com/laelipasiqueflipa/conocelaelipa/inci.jpg');">
 
 							<div class="container">
 								<div class="row">
 									<div class="col-md-8 col-md-offset-2 text-center">
-										<h1 class="title">Material Kit PRO</h1>
-										<h4>Dolce & Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
-										<br />
-										<h6>Connect with us on:</h6>
-										<div class="buttons">
-											<a href="#pablo" class="btn btn-just-icon btn-white btn-simple btn-lg">
-												<i class="fa fa-twitter"></i>
-											</a>
-											<a href="#pablo" class="btn btn-just-icon btn-white btn-simple btn-lg">
-												<i class="fa fa-facebook-square"></i>
-											</a>
-											<a href="#pablo" class="btn btn-just-icon btn-white btn-simple btn-lg">
-												<i class="fa fa-google-plus"></i>
-											</a>
-											<a href="#pablo" class="btn btn-just-icon btn-white btn-simple btn-lg">
-												<i class="fa fa-instagram"></i>
-											</a>
-										</div>
+										<h1 class="title">Información Instantánea</h1>
+										<h4>Además de nuestra programación habitual en nuestras redes sociales, siempre que ocurre algo (accidentes, eventos, etc), estamos activos para mantener a todos nuestros seguidores/as al tanto</h4>
 									</div>
 								</div>
 							</div>
@@ -210,24 +181,21 @@
 					</div>
 
 					<div class="item">
-						<div class="page-header header-filter" style="background-image: url('assets/img/dg3.jpg');">
+						<div class="page-header header-filter" style="background-image: url('http://www.macarteycreacion.com/laelipasiqueflipa/conocelaelipa/shop1.jpg');">
 
 							<div class="container">
 								<div class="row">
 									<div class="col-md-7 col-md-offset-5 text-right">
-										<h1 class="title">New Collection 50% Off</h1>
-										<h4>There's no doubt that Tesla is delighted with the interest, but the data also raises a few questions. How long will it take for Tesla to fulfill all those extra orders?</h4>
+										<h2 class="title">¡Nuevas ofertas cada mes!</h2>
+										<h4>Cada mes, los comercios del barrio apuntados a nuestra campaña, nos traen ofertas exclusivas que no podéis perderos. Si quieres saber cuales son, no dudes en ir a la sección</h4>
 										<br />
 
 										<div class="buttons">
-											<a href="#pablo" class="btn btn-white btn-simple btn-lg">
-												<i class="material-icons">share</i> Share Offer
-											</a>
-											<a href="#pablo" class="btn btn-danger btn-lg">
-												<i class="material-icons">shopping_cart</i> Shop Now
+											<a href="../comerciate.html" class="btn btn-danger btn-lg">
+												<i class="material-icons">shopping_cart</i> Comercia-te
 											</a>
 										</div>
--->
+
 									</div>
 								</div>
 							</div>
@@ -241,13 +209,14 @@
     <div id="cards" class="cd-section">
     	  <div class="cards">
           <div class="section-gray">
+						<br>
           <div class="container">
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center">
                   <br>
                   <h1 class="title">¡Activa-te!</h1>
-                  <h4>Os presentamos las "elipertas", las tarjetas que muestran la actualidad por semanas. En ellas se recojerán las novedades de la semana, así que estad pendientes cada lunes de las novedades que traerán</h4>
+                  <h4>Os presentamos las <b>"elipertas"</b>, las tarjetas que muestran la actualidad por semanas. En ellas se recojerán las novedades de la semana, así que estad pendientes cada lunes de las novedades que traerán</h4>
 <hr>
                   <br><br>
                 </div>
@@ -421,45 +390,7 @@
     	    			</div>
               </div>
 
-                <div class="social-line social-line-big-icons social-line-black">
-                	        		<div class="container">
-                	        			<div class="row">
-
-                                  <div class="col-md-2">
-                                    <a href="http://www.facebook.com/laelipasiqueflipa" class="btn btn-simple btn-just-icon btn-white">
-                                      <i class="fa fa-facebook-square"></i>
-                                    </a>
-                                  </div>
-
-                                  <div class="col-md-2">
-                	        					<a href="https://twitter.com/La_Elipa" class="btn btn-simple btn-just-icon btn-white">
-                	        						<i class="fa fa-twitter"></i>
-                	        					</a>
-                	        				</div>
-
-                	        				<div class="col-md-2">
-                	        					<a href="https://www.instagram.com/la_elipasiqueflipa/" class="btn btn-simple btn-just-icon btn-white">
-                	        						<i class="fa fa-instagram"></i>
-                	        					</a>
-                	        				</div>
-                	        				<div class="col-md-2">
-                	        					<a href="https://api.whatsapp.com/send?phone=34646835828" class="btn btn-simple btn-just-icon btn-white">
-                	        						<i class="fa fa-whatsapp"></i>
-                	        					</a>
-                	        				</div>
-                	        				<div class="col-md-2">
-                	        					<a href="https://t.me/laelipasiqueflipa" class="btn btn-simple btn-just-icon btn-white">
-                	        						<i class="fa fa-paper-plane"></i>
-                	        					</a>
-                	        				</div>
-                	        				<div class="col-md-2">
-                	        					<a href="https://www.youtube.com/channel/UCkskj83gZciNilD9ygKQIQg" class="btn btn-simple btn-just-icon btn-white">
-                	        						<i class="fa fa-youtube-play"></i>
-                	        					</a>
-                	        				</div>
-                	        			</div>
-                	        		</div>
-                	        	</div>
+						<section id="cta" class="wrapper style4 parallax special" style="background-image: url('http://www.macarteycreacion.com/laelipasiqueflipa/conocelaelipa/drag1.jpg'); width:100%;"></section>
 
 <br><br>
 
@@ -477,10 +408,10 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-5" style="margin-left:5%">
+    <div class="posts">
+      <div>
 
-        <div class="card card-background" style="background-image: url('http://www.macarteycreacion.com/laelipasiqueflipa/conocelaelipa/cards/acampaña1.jpg')">
+        <div class="card card-background post" style="background-image: url('http://www.macarteycreacion.com/laelipasiqueflipa/conocelaelipa/cards/acampaña1.jpg')">
 
           <div class="card-content">
             <h6 class="category text-info">Directorio Comercial</h6>
@@ -497,8 +428,8 @@
         </div>
       </div>
 
-      <div class="col-md-5" style="margin-left:5%">
-        <div class="card card-background" style="background-image: url('http://www.macarteycreacion.com/laelipasiqueflipa/conocelaelipa/cards/acampaña2.jpg')">
+      <div>
+        <div class="card card-background post" style="background-image: url('http://www.macarteycreacion.com/laelipasiqueflipa/conocelaelipa/cards/acampaña2.jpg')">
           <div class="card-content">
             <h6 class="category text-info">Información Cercana</h6>
             <h3 class="card-title">¡Activa-te!</h3>
@@ -515,10 +446,10 @@
     </div>
 
 
-  <div class="row">
-    <div class="col-md-5" style="margin-left:5%">
+  <div class="posts" >
+    <div>
 
-      <div class="card card-background" style="background-image: url('http://www.macarteycreacion.com/laelipasiqueflipa/conocelaelipa/cards/card1.png')">
+      <div class="card card-background post" style="background-image: url('http://www.macarteycreacion.com/laelipasiqueflipa/conocelaelipa/cards/card1.png')">
 
         <div class="card-content">
           <h6 class="category text-info">Memorias del pasado</h6>
@@ -535,8 +466,8 @@
       </div>
     </div>
 
-    <div class="col-md-5" style="margin-left:5%">
-      <div class="card card-background" style="background-image: url('http://www.macarteycreacion.com/laelipasiqueflipa/conocelaelipa/cards/acampaña4.jpg')">
+    <div>
+      <div class="card card-background post" style="background-image: url('http://www.macarteycreacion.com/laelipasiqueflipa/conocelaelipa/cards/acampaña4.jpg')">
         <div class="card-content">
           <h6 class="category text-info">Paisajes</h6>
           <h3 class="card-title">La Elipa desde mi ventana</h3>

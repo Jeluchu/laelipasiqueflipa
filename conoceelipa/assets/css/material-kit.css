@@ -1,18 +1,77 @@
-/*! =========================================================
- *
- * Material Kit PRO - V1.2.1
- *
- * =========================================================
- *
- * Product Page: https://www.creative-tim.com/product/material-kit-pro
- * Available with purchase of license from https://www.creative-tim.com/product/material-kit-pro
- * Copyright 2017 Creative Tim (https://www.creative-tim.com)
- * License Creative Tim (https://www.creative-tim.com/license)
- *
- * ========================================================= */
-/* ANIMATION */
-/* SHADOWS */
-/* Shadows (from mdl http://www.getmdl.io/) */
+.parallax {
+	 /* The image used */
+	 background-image: url("img_parallax.jpg");
+
+	 /* Set a specific height */
+	 height: 500px;
+
+	 /* Create the parallax scrolling effect */
+	 background-attachment: fixed;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.post {
+  border-radius: 3px;
+  box-shadow: 0 4px 2px 0 rgba(0, 0, 0, .25), 0 -1px 1px 0 rgba(0, 0, 0, .1);
+  display: flex;
+  flex-direction: column;
+  margin: 12px 5px;
+  width: 80%;
+}
+
+.post figure {
+  height: 200px;
+  margin: 0;
+  width: 100%;
+}
+
+.post figure img {
+  height: 100%;
+  width: 100%;
+}
+
+.post pre {
+  color: #555;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  overflow: hidden;
+  padding: 0 10px;
+  text-align: justify;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .posts {
+    justify-content: space-between;
+   }
+
+  .post {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .posts {
+    justify-content: space-between;
+   }
+
+  .post {
+    width: 30%;
+  }
+}
+
 body {
     background-color: #E5E5E5;
     color: #3C4858;
