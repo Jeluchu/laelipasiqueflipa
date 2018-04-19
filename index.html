@@ -14,31 +14,6 @@
 		<base target="blank"> <!-- ABRIR ENLACES EN OTRA PESTAÑA -->
 		<link rel="icon" type="image/x-icon" href="favicon.png">
 
-		<!-- Start of Async Drift Code -->
-		<script>
-		!function() {
-		  var t;
-		  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
-		  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-		  t.factory = function(e) {
-		    return function() {
-		      var n;
-		      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-		    };
-		  }, t.methods.forEach(function(e) {
-		    t[e] = t.factory(e);
-		  }), t.load = function(t) {
-		    var e, n, o, i;
-		    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
-		    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
-		    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-		  });
-		}();
-		drift.SNIPPET_VERSION = '0.3.1';
-		drift.load('35a5v6742ima');
-		</script>
-		<!-- End of Async Drift Code -->
-
 	</head>
 	<body class="landing" oncontextmenu="return false" onkeydown="return false"> <!-- BLOQUEO -->
 
@@ -203,7 +178,7 @@
 						<li><a href="https://t.me/laelipasiqueflipa" class="icon fa-paper-plane"><span class="label">Telegram</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>LA ELIPA SI QUE FLIPA &copy; 2018</li><li>Diseñado por: <a href="http://jeluchu.github.io/">Jéluchu</a></li>
+						<li>LA ELIPA SI QUE FLIPA &copy; <script>document.write(new Date().getFullYear())</script> </li><li>Diseñado por: <a href="http://jeluchu.github.io/">Jéluchu</a></li>
 					</ul>
 				</footer>
 
