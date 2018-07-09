@@ -1,6 +1,28 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
+#overbox4 {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999999;
+    display: block;
+}
+#infobox4 {
+    margin: auto;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    vertical-align:middle;
+    background-color: #ffb900;
+}
+#infobox4 p {
+    line-height:18px;
+    font-size:12px;
+}
+
+
 #overbox3 {
     position: fixed;
     bottom: 0px;
