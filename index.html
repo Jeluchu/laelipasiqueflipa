@@ -1,142 +1,727 @@
 <!DOCTYPE html>
 
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="ThemeStarz">
+	<meta charset="utf-8"/>
+	<title>Inicio</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta content="¡Bienvenidos/as a la página oficial del barrio de La Elipa!" name="description"/>
+  <meta name="Keywords" content="la elipa, elipa, flipa, activa, la elipa si que flipa, la elipa me flipa, la elipa activa, Jéluchu, Jeluchu, Jelu">
+	<meta content="Jéluchu" name="author"/>
+  <meta name="Language" content="Spanish">
 
-    <link href="assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="assets/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+	<!-- GLOBAL STYLES -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="assets/plugins/socicon/socicon.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/bootstrap-social/bootstrap-social.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/animate/animate.min.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
-    <title>Inicio</title>
+	<!-- PLUGINS  -->
+	<link href="assets/plugins/revo-slider/css/settings.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/revo-slider/css/layers.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/revo-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/slider-for-bootstrap/css/slider.css" rel="stylesheet" type="text/css"/>
 
-    <style>
-        body { background-color: #f3f3f3; }
-    </style>
+	<!-- PAGE STYLES -->
+	<link href="assets/plugins/ilightbox/css/ilightbox.css" rel="stylesheet" type="text/css"/>
 
-<link rel="manifest" href="/manifest.json" />
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-<script>
-  var OneSignal = window.OneSignal || [];
-  OneSignal.push(function() {
-    OneSignal.init({
-      appId: "7c182602-90c1-4d5b-8f11-d791634bdba3",
-      autoRegister: true,
-      notifyButton: {
-        enable: false,
-      },
-      welcomeNotification: {
-        "title": "¡MUCHAS GRACIAS!",
-        "message": "Elipón te mantendrá al tanto de todas las novedades",
-        // "url": "" /* Leave commented for the notification to not open a window on Chrome and Firefox (on Safari, it opens to your webpage) */
-      },
-      promptOptions: {
-        /* Change bold title, limited to 30 characters */
-        siteName: 'La Elipa Activa',
-        /* actionMessage limited to 90 characters */
-        actionMessage: "Queremos enviarte notificaciones para que no te pierdas nada",
-        /* acceptButtonText limited to 15 characters */
-        acceptButtonText: "ACEPTAR",
-        /* cancelButtonText limited to 15 characters */
-        cancelButtonText: "NO GRACIAS"
-      }
-    });
-  });
-</script>
+  <!-- THEME STYLES -->
+	<link href="assets/extra_assets/default/css/plugins.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/extra_assets/default/css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
+	<link href="assets/extra_assets/default/css/themes/green1.css" rel="stylesheet" id="style_theme" type="text/css"/>
+	<link href="assets/extra_assets/default/css/custom.css" rel="stylesheet" type="text/css"/>
+
+	<!-- FAVICON -->
+	<link rel="icon" type="image/x-icon" href="https://www.macarteycreacion.com/laelipasiqueflipa/favicon/to_ico-128.ico">
+	<link rel="icon" type="image/x-icon" href="https://www.macarteycreacion.com/laelipasiqueflipa/favicon/to_ico-64.ico">
+	<link rel="icon" type="image/x-icon" href="https://www.macarteycreacion.com/laelipasiqueflipa/favicon/to_ico-48.ico">
+	<link rel="icon" type="image/x-icon" href="https://www.macarteycreacion.com/laelipasiqueflipa/favicon/to_ico-32.ico">
+	<link rel="icon" type="image/x-icon" href="https://www.macarteycreacion.com/laelipasiqueflipa/favicon/to_ico-16.ico">
+
+	<link rel="manifest" href="/manifest.json" />
+	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+	<script>
+	  var OneSignal = window.OneSignal || [];
+	  OneSignal.push(function() {
+	    OneSignal.init({
+	      appId: "7c182602-90c1-4d5b-8f11-d791634bdba3",
+	      autoRegister: true,
+	      notifyButton: {
+	        enable: false,
+	      },
+	      welcomeNotification: {
+	        "title": "¡MUCHAS GRACIAS!",
+	        "message": "Elipón te mantendrá al tanto de todas las novedades",
+	        // "url": "" /* Leave commented for the notification to not open a window on Chrome and Firefox (on Safari, it opens to your webpage) */
+	      },
+	      promptOptions: {
+	        /* actionMessage limited to 90 characters */
+	        actionMessage: "Queremos enviarte notificaciones para que no te pierdas nada",
+	        /* acceptButtonText limited to 15 characters */
+	        acceptButtonText: "ACEPTAR",
+	        /* cancelButtonText limited to 15 characters */
+	        cancelButtonText: "NO GRACIAS"
+	      }
+	    });
+	  });
+	</script>
 
 </head>
 
-<body>
+<body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fixed-non-minimized c-layout-header-fullscreen" oncontextmenu="return false">
 
-<div class="page-wrapper">
-    <div class="content-wrapper">
-        <div class="content-main animate">
-            <div class="container">
-                <div class="center count-down animate" data-countdown-year="2018" data-countdown-month="07" data-countdown-day="23"></div>
-                <h1 class="font-size-90">¡EN MANTENIMIENTO!</h1>
-                <h2 class="opacity-60">Se acerca la 4º Temporada de "La Elipa Activa"</h2>
-            </div>
-            <!--end container-->
-        </div>
-        <!--end content-main-->
-        <div class="background-wrapper">
-            <div id="background-content"></div>
-        </div>
-        <!--end background-wrapper-->
+  <header class="c-layout-header c-layout-header-5 c-layout-header-dark-mobile" data-minimize-offset="80">
+		<div class="c-navbar">
+		  <div class="container-fluid">
+			<!-- BEGIN: BRAND -->
+			<div class="c-navbar-wrapper clearfix">
+				<div class="c-brand c-pull-left">
+					<a href="index.html" class="c-logo">
+						<img src="assets/base/img/logos/logo.png" alt="LA ELIPA ACTIVA" class="c-desktop-logo">
+						<img src="assets/base/img/logos/logo.png" alt="LA ELIPA ACTIVA" class="c-desktop-logo-inverse">
+						<img src="assets/base/img/logos/logo.png" alt="LA ELIPA ACTIVA" class="c-mobile-logo">
+					</a>
+					<button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
+					<span class="c-line"></span>
+					<span class="c-line"></span>
+					<span class="c-line"></span>
+					</button>
+
+					<button class="c-topbar-toggler" type="button">
+						<i class="fa fa-ellipsis-v"></i>
+					</button>
+
+          <!--
+					<button class="c-search-toggler" type="button">
+						<i class="fa fa-search"></i>
+					</button>
+          -->
+
+          <!--
+  				<button class="c-cart-toggler" type="button">
+  					<i class="fa fa-shopping-cart"></i>
+  				</button>
+          -->
+				</div>
+
+				<!--
+				<form class="c-quick-search" action="#">
+					<input type="text" name="query" placeholder="Type to search..." value="" class="form-control" autocomplete="off">
+					<span class="c-theme-link">&times;</span>
+				</form>
+        -->
+
+        <!-- NAVIGATION ON PC -->
+        <nav class="c-mega-menu c-pull-right c-mega-menu-dark c-mega-menu-dark-mobile c-fonts-uppercase c-fonts-bold">
+        	<ul class="nav navbar-nav c-theme-nav">
+
+        						<li class="c-active">
+        						  <a href="index.html" class="c-link dropdown-toggle">Inicio</a>
+          					</li>
+
+          					<li>
+          						<a href="nosotros.html" class="c-link dropdown-toggle">Sobre Nosotros</a>
+        					  </li>
+
+                    <li>
+                      <a href="proyectos.html" class="c-link dropdown-toggle">Proyectos</a>
+                    </li>
+
+										<li>
+											<a href="conocetubarrio.html" class="c-link dropdown-toggle">Conoce tu barrio</a>
+										</li>
+
+        						<li>
+        						  <a href="comerciate.html" class="c-link dropdown-toggle">Comercia-te</a>
+        					  </li>
+
+                    <li>
+        						  <a href="contacta.html" class="c-link dropdown-toggle">Contacta</a>
+        					  </li>
+
+            <!--
+        		<li class="c-search-toggler-wrapper">
+        			<a  href="#" class="c-btn-icon c-search-toggler"><i class="fa fa-search"></i></a>
+        		</li>
+            -->
+
+        		<li class="c-cart-toggler-wrapper">
+        			<a  href="mantenimiento.html" class="c-btn-icon c-cart-toggler"><i class="fa fa-shopping-cart c-cart-icon"></i></a>
+        		</li>
+
+        	</ul>
+        </nav>
+
+      	</div>
+
+				<!-- WARNINGS AND OFFERS -->
+	      <div class="c-shop-topbar-offer c-bg-blue-1">
+	        <div class="container">
+	          <h3 class=" c-font-white c-font-uppercase c-font-14 c-font-thin c-center">
+	            <strong>¿Aún no tienes nuestra App para móvil?</strong>
+	            <a href="https://play.google.com/store/apps/details?id=com.e.jcalderon.laelipa" class="c-font-bold c-font-dark c-font-white-hover">&nbsp; ¡Descárgala ya!</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	          </h3>
+	        </div>
+	      </div>
+
+    	</div>
     </div>
-    <!--end content-wrapper-->
-    <footer>
-        <div class="social-icons animate">
-            <a href="https://www.facebook.com/laelipasiqueflipa" target=”_blank”><i class="fa fa-facebook-f"></i></a>
-            <a href="https://twitter.com/La_Elipa" target=”_blank”><i class="fa fa-twitter"></i></a>
-            <a href="https://www.instagram.com/la_elipasiqueflipa/" target=”_blank”><i class="fa fa-instagram"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=34646835828" target=”_blank”><i class="fa fa-whatsapp"></i></a>
-            <a href="https://t.me/laelipasiqueflipa" target=”_blank”><i class="fa fa-paper-plane"></i></a>
-        </div>
-        <!--end social-icons-->
-    </footer>
-</div>
+  </header>
+
+	<div class="c-layout-page">
+
+    <!-- FIRST SLIDER -->
+	  <section class="c-layout-revo-slider c-layout-revo-slider-3" dir="ltr">
+	    	<div class="tp-banner-container tp-fullscreen">
+	    		<div class="tp-banner rev_slider" data-version="5.0">
+	    			<ul>
+
+	    				<!--BEGIN: SLIDE #1 -->
+	    				<li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
+	    					<img class="rev-slidebg" src="https://www.macarteycreacion.com/laelipasiqueflipa/banners/princi.jpg" alt=""/>
+
+	    					<!--BEGIN: SUB TITLE -->
+	    					<div class="tp-caption customin customout"
+	    						data-x="center"
+	    						data-y="center"
+	    						data-hoffset="[-500, 300, 200, 70]"
+	    						data-voffset="30"
+
+	    						data-speed="500"
+	    						data-start="1000"
+	    						data-transform_idle="o:1;"
+	                            data-transform_in="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;"
+	                            data-transform_out="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:600;e:Back.easeInOut;"
+	    						data-splitin="none"
+	    						data-splitout="none"
+	    						data-elementdelay="0.1"
+	    						data-endelementdelay="0.1"
+	    						data-endspeed="600"
+	    						style="z-index: 2;">
+	    						<p class="c-main-title-1 c-font-26 c-center c-font-uppercase c-font-bold c-font-white c-theme-bg">
+	                  <i class="material-icons" style="font-size:50px;color:white;">sentiment_very_satisfied</i><br>
+	    						¡GRANDES POR SU GENTE!<br>
+	    						</p>
+	    					</div>
+	    					<!--END -->
+	    					 <div class="tp-caption customin customout"
+	    					 		data-x="right"
+	    					 		data-y="bottom"
+	    					 		data-hoffset="0"
+	    					 		data-voffset="0"
+	    					 		data-speed="500"
+	    					 		data-start="500"
+	    					 		data-basealign="slide"
+	    					 		data-transform_idle="o:1;"
+	                            	data-transform_in="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;"
+	                            	data-transform_out="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:600;e:Back.easeInOut;"
+	                             	data-splitin="none" data-splitout="none"
+	                                data-elementdelay="0.1"
+	                                data-endelementdelay="0.1"
+	                                data-endspeed="600"
+	                                style="z-index: 1;">
+	                       	</div>
+
+	    		 		</li>
+	    		 		<!--END -->
+
+	    	 			<!--BEGIN: SLIDE #2 - VIDEO SLIDER -->
+	    				<li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="6000" data-thumb="">
+	                        <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+	                        <img src="assets/base/img/layout/sliders/revo-slider/base/blank.png" alt="">
+
+	                        <div class="rs-background-video-layer fulllscreenvideo tp-videolayer"
+	                        	data-forcerewind="on"
+	                        	data-volume="mute"
+	                        	data-videowidth="100%"
+	                        	data-videoheight="100%"
+	                        	data-videomp4="assets/base/media/video/video.mp4"
+	                        	data-videopreload="preload"
+	                        	data-videoloop="loop"
+	                        	data-forceCover="1"
+	                        	data-aspectratio="16:9"
+	                        	data-autoplay="true"
+	                        	data-autoplayonlyfirsttime="false"
+	                          data-nextslideatend="true">
+	                        </div>
+
+	                        <div class="tp-caption customin customout"
+	                            data-x="center"
+	                						data-y="center"
+	                						data-hoffset="0"
+	                						data-voffset="-30"
+
+	                           	data-speed="500"
+	                						data-start="1000"
+	                						data-transform_idle="o:1;"
+	                            data-transform_in="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;"
+	                            data-transform_out="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:600;e:Back.easeInOut;"
+	                						data-splitin="none"
+	                						data-splitout="none"
+	                						data-elementdelay="0.1"
+	                						data-endelementdelay="0.1"
+	                						data-endspeed="600">
+	                            <h3 class="c-main-title-2 c-font-55 c-font-bold c-font-center c-font-uppercase c-block-bordered c-font-white c-block">
+	                            	La Elipa<br>barrio con carácter
+	                            </h3>
+	                        </div>
+
+	                        <div class="tp-caption lft"
+	                            data-x="center"
+	                            data-y="center"
+	                            data-hoffset="0"
+	                            data-voffset="130"
+	                            data-speed="900"
+	                            data-start="2000"
+	                            data-transform_idle="o:1;"
+	                            data-transform_in="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;"
+	                            data-transform_out="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:900;e:Back.easeInOut;" >
+	                            <a href="conocetubarrio.html" class="c-action-btn btn btn-lg c-btn-square c-theme-btn c-btn-bold c-btn-uppercase">Conoce tu barrio</a>
+	                        </div>
+	                        <!--END-->
+	                    </li>
+	    		 		<!--END -->
+	    			</ul>
+	    		</div>
+	    	</div>
+	    </section>
+
+	  <!-- INFORMATION BAR -->
+	  <div class="c-content-box c-size-md c-bg-dark">
+	  	<div class="container">
+	  		<div class="c-content-bar-2 c-opt-1">
+	  			<div class="row" data-auto-height="true">
+	  				<div class="col-md-6">
+
+	  					<div class="c-content-title-1" data-height="height">
+	  						<h3 class="c-font-white c-font-bold">Si aún no sabes quiénes somos ¡Conócenos!</h3>
+	  						<p class="c-font-grey-3 c-font-sbold">
+	  							Esta página es un medio de información libre, abierto e independiente, en el que podéis expresaros y colaborar, para estar al tanto de todas las novedades
+	  						</p>
+	  						<a href="nosotros.html" class="btn btn-md c-btn-border-2x c-btn-square c-theme-btn c-btn-uppercase c-btn-bold">Ir a "Sobre nosotros"</a>
+	  					</div>
+
+	  				</div>
+	  				<div class="col-md-6">
+	  					<div class="c-content-v-center c-bg-red" data-height="height">
+	  						<div class="c-wrapper">
+	  							<div class="c-body">
+	  								<h3 class="c-font-white c-font-bold">Página referente en el barrio de La Elipa y distrito de Ciudad Lineal</h3>
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+	  		</div>
+	  	</div>
+	  </div>
+
+	  <!-- SHOW INFORMATION WHY?! -->
+	  <div class="c-content-box c-size-lg c-bg-grey-1">
+	  	<div class="container">
+	  		<div class="">
+	  			<div class="row">
+	  				<div class="col-md-7">
+	  					<div class="c-content-feature-5">
+	  						<div class="c-content-title-1 wow amimate fadeInDown">
+	  							<h3 class="c-left c-font-dark c-font-uppercase c-font-bold">¿Por qué<br/>"La Elipa Activa"?</h3>
+	  							<div class="c-line-left c-bg-blue-3 c-theme-bg"></div>
+	  						</div>
+	  						<div class="c-text wow animate fadeInLeft">
+	  							Estarás al tanto de todas las novedades, eventos y muchas otras cosas más al instante mediante redes sociales<br> (Facebook, Twitter e Instagram)
+	  						</div>
+	  						<a href="contacta.html" class="btn c-btn-uppercase btn-md c-btn-bold c-btn-square c-theme-btn wow animate fadeIn">Contacta</a>
+	  						<img class="c-photo img-responsive wow animate fadeInUp" width="340" alt="" src="https://www.macarteycreacion.com/laelipasiqueflipa/logos/logoactual.png"/>
+	  					</div>
+	  				</div>
+	  				<div class="col-md-5">
+	  					<div class="c-content-accordion-1 c-theme wow animate fadeInRight">
+	  						<div class="panel-group" id="accordion" role="tablist">
+	  							<div class="panel">
+	  								<div class="panel-heading" role="tab" id="headingOne">
+	  									<h4 class="panel-title">
+	  										<a class="c-font-bold c-font-uppercase c-font-19" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	  											EVENTOS EN DIRECTO
+	  										</a>
+	  									</h4>
+	  								</div>
+	  								<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+	  									<div class="panel-body c-font-18">
+	                      Siempre que hay un evento en nuestro barrio, intentamos estar presentes e informar a todos los elipeños y elipeñas del lugar y de la actividad
+	                    </div>
+	  								</div>
+	  							</div>
+	  							<div class="panel">
+	  								<div class="panel-heading" role="tab" id="headingTwo">
+	  									<h4 class="panel-title">
+	  										<a class="collapsed c-font-uppercase c-font-bold c-font-19" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	  											R-ELIPA
+	  										</a>
+	  									</h4>
+	  								</div>
+	  								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+	  									<div class="panel-body c-font-18">
+	  										Poco a poco, en nuestra página de Facebook,vamos publicando imágenes antiguas del barrio y del distrito para conocer más sobre el pasado de La Elipa
+	  									</div>
+	  								</div>
+	  							</div>
+	  							<div class="panel">
+	  								<div class="panel-heading" role="tab" id="headingThree">
+	  									<h4 class="panel-title">
+	  										<a class="collapsed c-font-uppercase c-font-bold c-font-19" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	  										CONCURSOS
+	  										</a>
+	  									</h4>
+	  								</div>
+	  								<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+	  									<div class="panel-body c-font-18">
+	  										En ciertas épocas del año realizamos diversos concursos en los que el premio son merchandising del barrio como (chapas, images, Elipón al Día).<br> ¡Estad atentos para participar!
+	  									</div>
+	  								</div>
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+	  		</div>
+	  	</div>
+	  </div>
+
+	  <!-- BEGIN: CONTENT/MISC/LATEST-ITEMS-2 -->
+	  <div class="c-content-box c-size-md c-bg-dark">
+	  	<div class="container">
+	  				<div class="row" data-auto-height="true">
+	  			<div class="col-md-4  c-margin-b-20">
+	  				<div class="c-content-media-1" data-height="height">
+	  					<div class="c-content-label c-font-uppercase c-font-bold c-bg-red">Actualizaciones</div>
+	  					<a href="blog/laelipaactiva.html" class="c-title c-font-uppercase c-theme-on-hover c-font-bold">La Elipa Activa · v4.0</a>
+	  					<p>Llevamos ya 4 años ni más ni menos dando servicio al barrio de La Elipa y como no también al distrito de Ciudad Lineal, por eso poco a poco hemos ido mejorando para llegar a más gente.<br><br>Es por eso que escuchamos vuestras sugerencias y aplicamos dichas mejoras.</p>
+	  				</div>
+	  			</div>
+	  			<div class="col-md-4  c-margin-b-20">
+	  				<div class="c-content-media-1-slider" data-slider="owl">
+	  					<div class="owl-carousel owl-theme c-theme owl-single" data-single-item="true" data-auto-play="8000" data-rtl="false">
+	  						<div class="item">
+	  							<div class="c-content-media-1" data-height="height">
+	  								<div class="c-content-label c-font-uppercase c-font-bold c-bg-purple">NOVEDADES</div>
+	  								<a href="blog/laarroba.html" class="c-title c-font-uppercase c-font-bold c-theme-on-hover c-font-bold">¡LA ARROBA!</a>
+	  								<p>Desde hace unos meses ha nacido una nueva asociación en el barrio, en este caso se trata de
+	      							 "La Arroba", unión cultural de comerciantes y usuarios. <br><br>Descubre todos los eventos, novedades y hasta las revistas que realizan dentro de nuestro barrio</p>
+	  								<div class="c-date">
+	  									23 Julio 2018
+	  								</div>
+	  							</div>
+	  						</div>
+
+	              <!--
+	  						<div class="item">
+	  							<div class="c-content-media-1" data-height="height">
+	  								<div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Posts</div>
+	  								<a href="#" class="c-title c-font-uppercase c-font-bold c-theme-on-hover"></a>
+	  								<p>
+	  								</p>
+	  								<div class="c-date">
+	  								</div>
+	  							</div>
+	  						</div>
+	              -->
+
+	  						<div class="item">
+	  							<div class="c-content-media-1" data-height="height">
+	  								<div class="c-content-label c-font-uppercase c-font-bold c-bg-yellow-2">PRÓXIMAMENTE</div>
+	  								<!--<a href="#" class="c-title c-font-uppercase c-font-bold c-theme-on-hover">--><p class="c-title c-font-uppercase c-font-bold">FIESTAS DE LA ELIPA 2018</p><!--</a>-->
+	  								<p>Como todos los años, cada septiembre llegan las fiestas a nuestro barrio con miles de actividades
+	  								   tanto para niños como para jóvenes, y tampoco nos olvidamos de los adultos, con conciertos y atracciones,
+	                     asegurando así la diversión para todas las edades.</p>
+	  								<div class="c-date">
+	  									PRÓXIMAMENTE
+	  								</div>
+	  							</div>
+	  						</div>
+
+	  					</div>
+	  				</div>
+
+	  			</div>
+	  			<div class="col-md-4  c-margin-b-20">
+	  				<div class="c-content-media-1-slider c-pagination-bottom" data-slider="owl">
+	  					<div class="owl-carousel owl-theme owl-theme-white owl-single" data-single-item="true" data-auto-play="8000" data-rtl="false">
+
+	              <div class="item">
+	  							<div class="c-content-v-center c-bg-yellow" data-height="height">
+	  								<div class="c-wrapper">
+	  									<div class="c-body c-center c-padding-10">
+	                      <i class="material-icons" style="font-size:80px;color:white;">store_mall_directory</i>
+	                      <h1 class="c-font-40 c-line-height-40 c-font-white c-font-bold c-font-uppercase">· COMERCIA-TE ·</h1>
+	                      <hr>
+	  										<h3 class="c-font-15 c-line-height-20 c-font-white c-font-sbold c-font-uppercase">Tu nuevo directorio comercial, en el que encontrarás las mejores ofertas del pequeño comercio dentro del barrio de La Elipa</h3>
+	  									</div>
+	  								</div>
+	  							</div>
+	  						</div>
+
+	  						<div class="item">
+	  							<div class="c-content-v-center c-bg-green-3" data-height="height">
+	  								<div class="c-wrapper">
+	  									<div class="c-body c-center c-padding-10">
+	                      <i class="material-icons" style="font-size:80px;color:white;">forum</i>
+	                      <h1 class="c-font-40 c-line-height-40 c-font-white c-font-bold c-font-uppercase">(+34) 646 835 828</h1>
+	                      <hr>
+	  										<h3 class="c-font-15 c-line-height-20 c-font-white c-font-sbold c-font-uppercase">Ahora ya puedes ponerte en contacto con nosotros mediante el servicio de mensajería instantáneo de WhatsApp o de Telegram</h3>
+	  									</div>
+	  								</div>
+	  							</div>
+	  						</div>
+
+	  					</div>
+	  				</div>
+	  			</div>
+	  		</div>
+	  		<div class="row hide">
+	  			<div class="col-md-4">
+	  				<div class="c-content-testimonial-2-slider" data-slider="owl" data-single-item="true" data-auto-play="6000">
+	  					<div class="c-title c-font-uppercase c-theme-bg">Testimonials</div>
+	  					<div class="owl-carousel owl-theme c-theme owl-single">
+	  						<div class="item">
+	  							<div class="c-content-testimonial-2" style="min-height: 360px;">
+	  								<div class="c-testimonial c-font-uppercase c-font-bold">Nothing but top quality code!</div>
+	  								<div class="c-author">
+	  									<div class="c-portrait" style="background-image: url(assets/base/img/content/team/team1.jpg)"></div>
+	  									<div class="c-name c-font-uppercase">Tony Park</div>
+	  									<p class="c-position c-theme c-font-uppercase">Park Industries</p>
+	  								</div>
+	  							</div>
+	  						</div>
+	  						<div class="item">
+	  							<div class="c-content-testimonial-2" style="min-height: 360px;">
+	  								<div class="c-testimonial c-font-uppercase c-font-bold">I could easily make more than 50 pages in 30 minutes</div>
+	  								<div class="c-author">
+	  									<div class="c-portrait" style="background-image: url(assets/base/img/content/team/team7.jpg)"></div>
+	  									<div class="c-name c-font-uppercase">Steve Roberts</div>
+	  									<p class="c-position c-theme c-font-uppercase">Buckler Corp.</p>
+	  								</div>
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+	  			<div class="col-md-8">
+	  				<div class="c-content-media-2-slider" data-slider="owl" data-single-item="true" data-auto-play="4000">
+	  					<div class="c-content-label c-font-uppercase c-font-bold">Latest Photos</div>
+	  					<div class="owl-carousel owl-theme c-theme owl-single">
+	  						<div class="item">
+	  							<div class="c-content-media-2 c-bg-img-center" style="background-image: url(assets/base/img/content/stock3/1.jpg); min-height: 360px;">
+	  								<div class="c-panel">
+	  									<div class="c-fav">
+	  										<i class="icon-heart c-font-thin"></i>
+	  										<p class="c-font-thin">16</p>
+	  									</div>
+	  								</div>
+	  							</div>
+	  						</div>
+	  						<div class="item">
+	  							<div class="c-content-media-2 c-bg-img-center" style="background-image: url(assets/base/img/content/stock3/57.jpg); min-height: 360px;">
+	  								<div class="c-panel">
+	  									<div class="c-fav">
+	  										<i class="icon-heart c-font-thin"></i>
+	  										<p class="c-font-thin">24</p>
+	  									</div>
+	  								</div>
+	  							</div>
+	  						</div>
+	  						<div class="item">
+	  							<div class="c-content-media-2 c-bg-img-center" style="background-image: url(assets/base/img/content/stock3/48.jpg); min-height: 360px;">
+	  								<div class="c-panel">
+	  									<div class="c-fav">
+	  										<i class="icon-heart c-font-thin"></i>
+	  										<p class="c-font-thin">34</p>
+	  									</div>
+	  								</div>
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+	  		</div>
+	  	</div>
+	  </div>
+
+	  <!-- BUSINESS SLIDER -->
+	  <div class="c-content-box c-size-md c-bg-grey">
+		 	<div class="container">
+				<!-- Begin: Testimonals 1 component -->
+				<div class="c-content-client-logos-slider-1  c-bordered" data-slider="owl">
+				<!-- Begin: Title 1 component -->
+				<div class="c-content-title-1">
+					<h3 class="c-center c-font-uppercase c-font-bold">Patrocinadores/as</h3>
+					<div class="c-line-center c-theme-bg"></div>
+				</div>
+				<!-- End-->
+
+				<!-- Begin: Owlcarousel -->
+
+				<div class="owl-carousel owl-theme c-theme owl-bordered1 c-owl-nav-center" data-items="6" data-desktop-items="4" data-desktop-small-items="3" data-tablet-items="3" data-mobile-small-items="2" data-slide-speed="5000" data-rtl="false">
+						<div class="item">
+							<a href="blog/laarroba.html"><img src="https://www.macarteycreacion.com/laelipasiqueflipa/comerciate/black/arroba.png" alt=""/></a>
+						</div>
+						<div class="item">
+							<a href="blog/lhmagazin.html"><img src="https://www.macarteycreacion.com/laelipasiqueflipa/comerciate/black/lhmagazin.png" alt=""/></a>
+						</div>
+						<div class="item">
+				  		<a href="comerciate/lledo.html"><img src="https://www.macarteycreacion.com/laelipasiqueflipa/comerciate/black/lledo.png" alt=""/></a>
+				  	</div>
+				  	<div class="item">
+				  		<a href="comerciate/reymont.html"><img src="https://www.macarteycreacion.com/laelipasiqueflipa/comerciate/black/reymont.png" alt=""/></a>
+				  	</div>
+				  	<div class="item">
+				  		<a href="comerciate/pilares.html"><img src="https://www.macarteycreacion.com/laelipasiqueflipa/comerciate/black/pilares.png" alt=""/></a>
+				  	</div>
+				  	<div class="item">
+				  		<a href="comerciate/frossny.html"><img src="https://www.macarteycreacion.com/laelipasiqueflipa/comerciate/black/rossny.png" alt=""/></a>
+				  	</div>
+				  	<div class="item">
+				  		<a href="comerciate/luzimar.html"><img src="https://www.macarteycreacion.com/laelipasiqueflipa/comerciate/black/luzi.png" alt=""/></a>
+				  	</div>
+				  	<div class="item">
+				  		<a href="comerciate/martilart.html"><img src="https://www.macarteycreacion.com/laelipasiqueflipa/comerciate/black/marti.png" alt=""/></a>
+				  	</div>
+				  	<div class="item">
+				  		<a href="comerciate/elpollorockero.html"><img src="https://www.macarteycreacion.com/laelipasiqueflipa/comerciate/black/pollo.png" alt=""/></a>
+				  	</div>
+				  	<div class="item">
+				  		<a href="comerciate/fisiolife.html"><img src="https://www.macarteycreacion.com/laelipasiqueflipa/comerciate/black/fisio.png" alt=""/></a>
+				  	</div>
+				  	<div class="item">
+				  		<a href="comerciate/corner.html"><img src="https://www.macarteycreacion.com/laelipasiqueflipa/comerciate/black/corner.png" alt=""/></a>
+				  	</div>
+				  	<div class="item">
+				  		<a href="comerciate/oga.html"><img src="https://www.macarteycreacion.com/laelipasiqueflipa/comerciate/black/oga.png" alt=""/></a>
+				  	</div>
+				  	<div class="item">
+				  		<a href="comerciate/cuevajiji.html"><img src="https://www.macarteycreacion.com/laelipasiqueflipa/comerciate/black/jiji.png" alt=""/></a>
+				  	</div>
+						<!--
+	          <div class="item">
+	            <a href="#"><img src="https://www.macarteycreacion.com/laelipasiqueflipa/comerciate/black/kumon.png" alt=""/></a>
+	          </div>
+					-->
+			  	</div>
+		    </div>
+		  </div>
+		</div>
+
+	</div>
+	<!-- END: PAGE CONTAINER -->
+
+	<!-- COOKIES -->
+  <div class="c-cookies-bar c-cookies-bar-1 c-cookies-bar-bottom c-theme-bg wow animate fadeInUp" data-wow-delay="1s">
+  	<div class="c-cookies-bar-container">
+  		<div class="row">
+  			<div class="col-md-9">
+  				<div class="c-cookies-bar-content c-font-white">
+  					Nosotros usamos cookies para mejorar tu experiencia en nuestra página web. Si navegas en la web, estás aceptando nuestras cookies.
+  				</div>
+  			</div>
+  			<div class="col-md-3">
+  				<div class="c-cookies-bar-btn">
+  					<a href="politicacookies.html" class="btn c-btn-white c-btn-border-1x c-btn-bold c-btn-square c-cookie-bar-link">Más Información</a>
+  					<a target="_blank" class="c-cookies-bar-close btn c-btn-white c-btn-square c-btn-bold"  onclick="aceptar_cookies();">¡Adelante!</a>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+
+	<!-- FOOTERS -->
+  <a name="footer"></a>
+	<footer class="c-layout-footer c-layout-footer-1">
+  	<div class="c-postfooter">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-6 col-sm-6">
+  					<p class="c-copyright c-font-oswald c-font-14">
+  					  La Elipa Activa &copy; <script>document.write(new Date().getFullYear())</script> · Diseñado por: <a class="c-font-white" href="https://jeluchu.github.io/" target=”_blank”>Jéluchu
+  					</p>
+  				</div>
+  				<div class="col-md-6 col-sm-6">
+  					<ul class="c-socials">
+  						<li><a href="https://www.facebook.com/laelipasiqueflipa" target=”_blank”><i class="fa fa-facebook-f"></i></a></li>
+  						<li><a href="https://twitter.com/La_Elipa" target=”_blank”><i class="fa fa-twitter"></i></a></li>
+  						<li><a href="https://www.instagram.com/la_elipasiqueflipa/" target=”_blank”><i class="fa fa-instagram"></i></a></li>
+  						<li><a href="https://api.whatsapp.com/send?phone=34646835828" target=”_blank”><i class="fa fa-whatsapp"></i></a></li>
+              <li><a href="https://t.me/laelipasiqueflipa" target=”_blank”><i class="fa fa-paper-plane"></i></a></li>
+  					</ul>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </footer>
 
 
-<script  src="assets/js/jquery-2.2.1.min.js"></script>
-<script  src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script  src="assets/js/jquery.validate.min.js"></script>
-<script  src="assets/js/jquery.magnific-popup.min.js"></script>
-<script  src="assets/js/jquery.plugin.min.js"></script>
-<script  src="assets/js/jquery.countdown.min.js"></script>
-<script  src="assets/js/blockrain.jquery.min.js"></script>
-<script  src="assets/js/custom.js"></script>
-
-<script>
-
-    //  Map
-
-    var latitude = 34.038405;
-    var longitude = -117.946944;
-    var markerImage = "assets/img/map-marker.png";
-    var mapTheme = "light";
-    var mapElement = "map";
-
-    $(".modal").on("shown.bs.modal", function (e) {
-        google.maps.event.addDomListener(window, 'load', simpleMap(latitude, longitude, markerImage, mapTheme, mapElement));
-    });
+	<!-- GO TO TOP -->
+  <div class="c-layout-go2top">
+  	<i class="fa fa-angle-double-up"></i>
+  </div>
 
 
-    // Background
+  <!-- PLUGINS -->
+	<script src="assets/plugins/jquery.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/jquery-migrate.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/jquery.easing.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/reveal-animate/wow.js" type="text/javascript" ></script>
+	<script src="assets/extra_assets/default/js/scripts/reveal-animate/reveal-animate.js" type="text/javascript" ></script>
 
-    window.BlockrainThemes = {
-        'my': {
-            background: '#ececec',
-            backgroundGrid: null,
-            primary: null,
-            secondary: null,
-            stroke: null,
-            innerStroke: null,
-            blocks: {
-                line:     '#8dff8b',
-                square:   '#ff6767',
-                arrow:    '#61dfff',
-                rightHook:'#ff6767',
-                leftHook: '#c8c8c8',
-                rightZag: '#ffe858',
-                leftZag:  '#ffffff'
-            }
-        }
-    };
-    $('#background-content').blockrain({
-        theme: "my",
-        blockWidth: 15,
-        speed: 30,
-        autoplay: true,
-        autoplayRestart: true
-    });
+	<!-- LAYOUT PLUGINS -->
+  <script src="assets/plugins/revo-slider/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/revo-slider/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/revo-slider/js/extensions/revolution.extension.navigation.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/revo-slider/js/extensions/revolution.extension.video.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/revo-slider/js/extensions/revolution.extension.parallax.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+	<script src="assets/plugins/smooth-scroll/jquery.smooth-scroll.js" type="text/javascript"></script>
+	<script src="assets/plugins/typed/typed.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/slider-for-bootstrap/js/bootstrap-slider.js" type="text/javascript"></script>
+	<script src="assets/plugins/js-cookie/js.cookie.js" type="text/javascript"></script>
 
+	<!-- THEME SCRIPTS -->
+	<script src="assets/base/js/components.js" type="text/javascript"></script>
+	<script src="assets/base/js/components-shop.js" type="text/javascript"></script>
+	<script src="assets/base/js/app.js" type="text/javascript"></script>
+	<script>
+	$(document).ready(function() {
+		App.init();
+	});
+	</script>
 
-</script>
+	<!-- PAGE SCRIPTS -->
+  <script src="assets/base/js/coockies.js" type="text/javascript"></script>
+	<script src="assets/extra_assets/default/js/scripts/revo-slider/slider-3.js" type="text/javascript"></script>
+	<script src="assets/plugins/isotope/isotope.pkgd.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/isotope/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/isotope/packery-mode.pkgd.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/ilightbox/js/jquery.requestAnimationFrame.js" type="text/javascript"></script>
+	<script src="assets/plugins/ilightbox/js/jquery.mousewheel.js" type="text/javascript"></script>
+	<script src="assets/plugins/ilightbox/js/ilightbox.packed.js" type="text/javascript"></script>
+	<script src="assets/extra_assets/default/js/scripts/pages/isotope-gallery.js" type="text/javascript"></script>
+	<script src="assets/extra_assets/default/js/scripts/pages/isotope-grid.js" type="text/javascript"></script>
 
 </body>
+</html>
