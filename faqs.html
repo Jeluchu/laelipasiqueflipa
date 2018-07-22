@@ -48,6 +48,32 @@
 	<link rel="icon" type="image/x-icon" href="https://www.macarteycreacion.com/laelipasiqueflipa/favicon/to_ico-48.ico">
 	<link rel="icon" type="image/x-icon" href="https://www.macarteycreacion.com/laelipasiqueflipa/favicon/to_ico-32.ico">
 	<link rel="icon" type="image/x-icon" href="https://www.macarteycreacion.com/laelipasiqueflipa/favicon/to_ico-16.ico">
+
+	<script>
+		var OneSignal = window.OneSignal || [];
+		OneSignal.push(function() {
+			OneSignal.init({
+				appId: "7c182602-90c1-4d5b-8f11-d791634bdba3",
+				autoRegister: true,
+				notifyButton: {
+					enable: false,
+				},
+				welcomeNotification: {
+					"title": "¡MUCHAS GRACIAS!",
+					"message": "Elipón te mantendrá al tanto de todas las novedades",
+					// "url": "" /* Leave commented for the notification to not open a window on Chrome and Firefox (on Safari, it opens to your webpage) */
+				},
+				promptOptions: {
+					/* actionMessage limited to 90 characters */
+					actionMessage: "Queremos enviarte notificaciones para que no te pierdas nada",
+					/* acceptButtonText limited to 15 characters */
+					acceptButtonText: "ACEPTAR",
+					/* cancelButtonText limited to 15 characters */
+					cancelButtonText: "NO GRACIAS"
+				}
+			});
+		});
+	</script>
 </head>
 
 <body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fixed-non-minimized c-layout-header-fullscreen" oncontextmenu="return false">
