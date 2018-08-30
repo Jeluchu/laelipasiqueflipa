@@ -74,6 +74,30 @@
 	  });
 	</script>
 
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#252e39"
+    },
+    "button": {
+      "background": "#05c378",
+      "text": "#ffffff"
+    }
+  },
+  "theme": "edgeless",
+  "content": {
+    "message": "Este sitio web usa cookies para mejorar tu experiencia a la hora de navegar por nuestra página",
+    "dismiss": "¡De acuerdo!",
+    "link": "Más información",
+    "href": "https://www.laelipasiqueflipa.com/politicacookies.html"
+  }
+})});
+</script>
+
 </head>
 <body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fixed-non-minimized c-layout-header-fullscreen" oncontextmenu="return false">
 
@@ -408,24 +432,6 @@
 
   </div>
 
-	<!-- COOKIES BAR -->
-  <div class="c-cookies-bar c-cookies-bar-1 c-cookies-bar-bottom c-theme-bg wow animate fadeInUp" data-wow-delay="1s">
-  	<div class="c-cookies-bar-container">
-  		<div class="row">
-  			<div class="col-md-9">
-  				<div class="c-cookies-bar-content c-font-white">
-  					Nosotros usamos cookies para mejorar tu experiencia en nuestra página web. Si navegas en la web, estás aceptando nuestras cookies.
-  				</div>
-  			</div>
-  			<div class="col-md-3">
-  				<div class="c-cookies-bar-btn">
-  					<a href="politicacookies.html" target=”_blank” class="btn c-btn-white c-btn-border-1x c-btn-bold c-btn-square c-cookie-bar-link">Más Información</a>
-  					<a class="c-cookies-bar-close btn c-btn-white c-btn-square c-btn-bold"  onclick="aceptar_cookies();">¡Adelante!</a>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
-  </div>
 
 	<!-- FOOTERS -->
   <a name="footer"></a>
@@ -502,7 +508,6 @@
   <script src="../../assets/demos/default/js/scripts/revo-slider/shop-slider-5.js" type="text/javascript"></script>
 
 	<!-- PAGE SCRIPTS -->
-  <script src="../assets/base/js/coockies.js" type="text/javascript"></script>
 	<script src="../assets/extra_assets/default/js/scripts/revo-slider/slider-3.js" type="text/javascript"></script>
 	<script src="../assets/plugins/isotope/isotope.pkgd.min.js" type="text/javascript"></script>
 	<script src="../assets/plugins/isotope/imagesloaded.pkgd.min.js" type="text/javascript"></script>
