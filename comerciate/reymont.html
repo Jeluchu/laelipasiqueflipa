@@ -101,6 +101,33 @@ window.cookieconsent.initialise({
 </head>
 <body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fixed-non-minimized c-layout-header-fullscreen" oncontextmenu="return false">
 
+	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				xfbml            : true,
+				version          : 'v3.2'
+			});
+		};
+
+		(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- Your customer chat code -->
+	<div class="fb-customerchat"
+		attribution=setup_tool
+		page_id="422412487847336"
+		theme_color="#0060B3"
+		logged_in_greeting="¡Hola! ¿En qué podemos ayudarte?"
+		logged_out_greeting="¡Hola! ¿En qué podemos ayudarte?">
+	</div>
+
 	<header class="c-layout-header c-layout-header-5 c-layout-header-dark-mobile" data-minimize-offset="80">
 		<div class="c-navbar">
 			<div class="container-fluid">
